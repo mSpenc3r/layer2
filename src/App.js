@@ -100,7 +100,7 @@ const MapboxThreeIntegration = () => {
             new mapboxgl.Marker(el, { offset: [-10, -10] }) // Half of width and height to center it
               .setLngLat(centroid)
               .setPopup(new mapboxgl.Popup({ offset: 25 })
-              .setHTML(`<h3>RCOI NAT: ${rCoiNat}</h3>`))
+              .setHTML(`<h3>Child Opportunity Index: ${rCoiNat}</h3>`))
                .addTo(map);
 
           });
